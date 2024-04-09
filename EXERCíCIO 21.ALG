@@ -1,18 +1,18 @@
-Algoritmo "Exercício 21"
-// Disciplina   : [Linguagem e Lógica de Programação com JavaScript]
+Algoritmo "ExercÃ­cio 21"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa
-// Descrição   : Algoritmo para ler notas
+// DescriÃ§Ã£o   : Algoritmo para Jogar
 // Autor(a)    : Milena Dias
 // Data atual  : 02/04/2024
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    inicioJogo:inteiro
    fimJogo:inteiro
    duracaoJogo:inteiro
 
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    Escreval("Digite o inicio do jogo")
    Leia(inicioJogo)
    Escreval("Digite o fim do jogo")
@@ -20,13 +20,13 @@ Inicio
    duracaoJogo<- fimJogo - inicioJogo
    se fimJogo = inicioJogo entao
       duracaoJogo<- fimJogo - inicioJogo + 24
-      Escreval("A duração do jogo foi:", duracaoJogo, "h")
+      Escreval("A duraÃ§Ã£o do jogo foi:", duracaoJogo, "h")
    senao
       se fimJogo < inicioJogo  entao
          duracaoJogo<- fimJogo - inicioJogo + 24
-         Escreval("A duração do jogo foi:", duracaoJogo, "h")
+         Escreval("A duraÃ§Ã£o do jogo foi:", duracaoJogo, "h")
       senao
-      Escreval("A duração do jogo foi:", duracaoJogo, "h")
+      Escreval("A duraÃ§Ã£o do jogo foi:", duracaoJogo, "h")
       fimse
    fimse
 Fimalgoritmo
